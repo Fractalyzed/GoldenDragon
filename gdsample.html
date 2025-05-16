@@ -1,0 +1,958 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Dragon | Authentic Chinese & Thai Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="floating-order">
+        <button class="floating-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Order Now</span>
+        </button>
+    </div>
+
+    <header>
+        <div class="logo-bar">
+            <div class="logo-container animate__animated animate__fadeIn">
+                <img src=https://gdchinese.com/wp-content/uploads/2015/10/cropped-golden-dragon-logo-with-black-background-for-fb.png alt="Golden Dragon Logo" class="black-logo">
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search our menu...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#menu"><i class="fas fa-utensils"></i> Menu <i class="fas fa-angle-down"></i></a></li>
+                    <li><a href="#deals"><i class="fas fa-tags"></i> Deals</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+                </ul>
+                <a href="#cart" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content animate__animated animate__fadeIn">
+            <div class="hero-logo-container animate__animated animate__slideInUp">
+                <img src=https://gdchinese.com/wp-content/uploads/2022/11/GD-logo.jpg alt="Golden Dragon Elegant Logo" class="red-logo">
+            </div>
+            <h1 class="animate__animated animate__slideInUp animate__delay-1s">Authentic <span>Chinese & Thai</span> Cuisine</h1>
+            <p class="animate__animated animate__slideInUp animate__delay-2s">Experience the rich flavors of the East with our carefully crafted dishes, made from the freshest ingredients and authentic recipes.</p>
+            <div class="hero-buttons animate__animated animate__slideInUp animate__delay-3s">
+                <a href="#menu" class="btn btn-primary pulse-animation">Order Online <i class="fas fa-arrow-right"></i></a>
+                <a href="#menu" class="btn btn-outline">View Full Menu</a>
+            </div>
+            <div class="hero-badges animate__animated animate__fadeIn animate__delay-4s">
+                <div class="badge">
+                    <i class="fas fa-truck"></i>
+                    <span>Fast Delivery</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>Top Rated</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Quality Ingredients</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section class="quick-order animate__animated animate__fadeInUp">
+        <div class="quick-order-container">
+            <h2>Quick Order <i class="fas fa-bolt"></i></h2>
+            <div class="order-tabs">
+                <button class="order-tab active" data-target="delivery">
+                    <i class="fas fa-truck"></i> Delivery
+                </button>
+                <button class="order-tab" data-target="pickup">
+                    <i class="fas fa-shopping-bag"></i> Pickup
+                </button>
+            </div>
+            <div class="order-content">
+                <div class="order-form">
+                    <div class="form-control-wrap">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" placeholder="Enter your delivery address" class="form-control">
+                    </div>
+                    <button class="btn-submit">Start Order <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="quick-links">
+                    <a href="#popular" class="quick-link">
+                        <i class="fas fa-star"></i>
+                        <span>Popular</span>
+                    </a>
+                    <a href="#deals" class="quick-link">
+                        <i class="fas fa-percent"></i>
+                        <span>Deals</span>
+                    </a>
+                    <a href="#recent" class="quick-link">
+                        <i class="fas fa-history"></i>
+                        <span>Recent Orders</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section" id="menu">
+        <div class="section-title animate__animated animate__fadeIn" data-scroll-animate="fadeIn">
+            <span class="tag">Customer Favorites</span>
+            <h2>Our Most Popular Dishes</h2>
+            <p>Discover our most beloved dishes that keep customers coming back for more</p>
+        </div>
+        <div class="filter-tabs animate__animated animate__fadeIn" data-scroll-animate="fadeIn">
+            <button class="filter-tab active">All</button>
+            <button class="filter-tab">Spicy <i class="fas fa-pepper-hot"></i></button>
+            <button class="filter-tab">Vegetarian <i class="fas fa-leaf"></i></button>
+            <button class="filter-tab">Seafood <i class="fas fa-fish"></i></button>
+            <button class="filter-tab">Chef's Special <i class="fas fa-award"></i></button>
+        </div>
+        <div class="featured-items animate__animated animate__fadeInUp" data-scroll-animate="fadeInUp">
+            <div class="featured-item item-appear">
+                <span class="item-tag bestseller">Bestseller</span>
+                <div class="featured-item-img">
+                    <img src=https://gdchinese.com/wp-content/uploads/2018/06/Dynamite-Chicken.jpg alt="Dynamite Chicken">
+                    <div class="quick-actions">
+                        <button class="quick-add"><i class="fas fa-plus"></i></button>
+                        <button class="quick-view"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="featured-item-content">
+                    <div class="item-header">
+                        <h3>Dynamite Chicken</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(124)</span>
+                        </div>
+                    </div>
+                    <p>Tender chicken cooked in our signature spicy sauce, garnished with spring onions.</p>
+                    <div class="item-meta">
+                        <span class="spicy-level">
+                            <i class="fas fa-pepper-hot"></i>
+                            <i class="fas fa-pepper-hot"></i>
+                        </span>
+                        <span class="prep-time"><i class="far fa-clock"></i> 20 min</span>
+                    </div>
+                    <div class="item-footer">
+                        <span class="price">₨1,100</span>
+                        <a href="#" class="add-to-cart">Add to Cart <i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item item-appear delay-1">
+                <div class="featured-item-img">
+                    <img src=https://thewoksoflife.com/wp-content/uploads/2019/04/hot-and-sour-soup-2-500x500.jpg alt="Red Hot & Sour Soup">
+                    <div class="quick-actions">
+                        <button class="quick-add"><i class="fas fa-plus"></i></button>
+                        <button class="quick-view"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="featured-item-content">
+                    <div class="item-header">
+                        <h3>Red Hot & Sour Soup</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(98)</span>
+                        </div>
+                    </div>
+                    <p>A delicious soup with minced chicken, cabbage, carrot, and green chillies in a tangy broth.</p>
+                    <div class="item-meta">
+                        <span class="spicy-level">
+                            <i class="fas fa-pepper-hot"></i>
+                            <i class="fas fa-pepper-hot"></i>
+                            <i class="fas fa-pepper-hot"></i>
+                        </span>
+                        <span class="prep-time"><i class="far fa-clock"></i> 15 min</span>
+                    </div>
+                    <div class="item-footer">
+                        <span class="price">₨500 – ₨700</span>
+                        <a href="#" class="add-to-cart">Add to Cart <i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item item-appear delay-2">
+                <div class="featured-item-img">
+                    <img src=https://gdchinese.com/wp-content/uploads/2015/10/Beef-With-Garlic-Chillies-Dry.jpg alt="Beef With Garlic & Chillies">
+                    <div class="quick-actions">
+                        <button class="quick-add"><i class="fas fa-plus"></i></button>
+                        <button class="quick-view"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="featured-item-content">
+                    <div class="item-header">
+                        <h3>Beef With Garlic & Chillies</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(142)</span>
+                        </div>
+                    </div>
+                    <p>Tender slices of beef stir-fried with garlic and chillies in our special sauce.</p>
+                    <div class="item-meta">
+                        <span class="spicy-level">
+                            <i class="fas fa-pepper-hot"></i>
+                            <i class="fas fa-pepper-hot"></i>
+                        </span>
+                        <span class="prep-time"><i class="far fa-clock"></i> 25 min</span>
+                    </div>
+                    <div class="item-footer">
+                        <span class="price">₨899 – ₨1,299</span>
+                        <a href="#" class="add-to-cart">Add to Cart <i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item item-appear delay-3">
+                <span class="item-tag new">New</span>
+                <div class="featured-item-img">
+                    <img src=https://casuallypeckish.com/wp-content/uploads/2023/12/Creamy-garlic-prawns-10.jpg alt="Prawns in Special Chinese Sauce">
+                    <div class="quick-actions">
+                        <button class="quick-add"><i class="fas fa-plus"></i></button>
+                        <button class="quick-view"><i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="featured-item-content">
+                    <div class="item-header">
+                        <h3>Prawns in Special Chinese Sauce</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(67)</span>
+                        </div>
+                    </div>
+                    <p>Succulent prawns cooked in our chef's special Chinese sauce with a perfect blend of spices.</p>
+                    <div class="item-meta">
+                        <span class="spicy-level">
+                            <i class="fas fa-pepper-hot"></i>
+                        </span>
+                        <span class="prep-time"><i class="far fa-clock"></i> 22 min</span>
+                    </div>
+                    <div class="item-footer">
+                        <span class="price">₨899 – ₨1,299</span>
+                        <a href="#" class="add-to-cart">Add to Cart <i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more-container animate__animated animate__fadeIn" data-scroll-animate="fadeIn">
+            <a href="#full-menu" class="btn btn-outline-primary">View Full Menu <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="categories" id="categories">
+        <div class="categories-container">
+            <div class="section-title">
+                <span class="tag">Browse Menu</span>
+                <h2>Explore Our Categories</h2>
+                <p>Find exactly what you're craving with our easy-to-navigate menu categories</p>
+            </div>
+            <div class="categories-grid">
+                <a href="#chicken" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <h3>Chicken</h3>
+                    <span class="item-count">24 items</span>
+                </a>
+                <a href="#beef" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bacon"></i>
+                    </div>
+                    <h3>Beef</h3>
+                    <span class="item-count">18 items</span>
+                </a>
+                <a href="#seafood" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Seafood</h3>
+                    <span class="item-count">16 items</span>
+                </a>
+                <a href="#vegetarian" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Vegetarian</h3>
+                    <span class="item-count">12 items</span>
+                </a>
+                <a href="#soups" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensil-spoon"></i>
+                    </div>
+                    <h3>Soups</h3>
+                    <span class="item-count">8 items</span>
+                </a>
+                <a href="#appetizers" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cheese"></i>
+                    </div>
+                    <h3>Appetizers</h3>
+                    <span class="item-count">14 items</span>
+                </a>
+                <a href="#rice" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bowl-rice"></i>
+                    </div>
+                    <h3>Rice</h3>
+                    <span class="item-count">10 items</span>
+                </a>
+                <a href="#noodles" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-noodles"></i>
+                    </div>
+                    <h3>Noodles</h3>
+                    <span class="item-count">9 items</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/api/placeholder/500/400" alt="About Golden Dragon">
+                <div class="about-experience">
+                    <span class="years">10+</span>
+                    <span class="text">Years of Excellence</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="tag">Our Story</span>
+                <h2>Traditional Recipes, Modern Service</h2>
+                <p>Golden Dragon has been serving authentic Chinese and Thai cuisine in Karachi for over a decade. Our journey began with a passion for bringing the rich flavors of the East to our community.</p>
+
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Authentic Flavors</h4>
+                            <p>Traditional recipes passed down through generations, preserving authentic taste.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Fresh Ingredients</h4>
+                            <p>We use only the freshest ingredients sourced daily from trusted suppliers.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4>Award-Winning Chefs</h4>
+                            <p>Our skilled chefs have mastered the art of Asian cuisine through years of practice.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Us <i class="fas fa-arrow-right"></i></a>
+                    <a href="#menu" class="btn btn-outline">View Menu <i class="fas fa-utensils"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <div class="section-title">
+                <span class="tag">Testimonials</span>
+                <h2>What Our Customers Say</h2>
+                <p>Hear from our satisfied customers about their Golden Dragon experience</p>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-items">
+                    <div class="testimonial-item">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">Golden Dragon has the best Chinese food in Karachi! Their dynamite chicken is absolutely amazing, and their delivery is always prompt. My go-to place for Chinese cuisine.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="/api/placeholder/60/60" alt="Customer">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Ahmed K.</h4>
+                                <p>Regular Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">I ordered their family deal for a get-together, and everyone loved it! The portions are generous, and the taste is authentic. Will definitely order again for future occasions.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="/api/placeholder/60/60" alt="Customer">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Fatima S.</h4>
+                                <p>Satisfied Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">Their hot and sour soup is the best I've ever had! I've tried many Chinese restaurants in Karachi, but Golden Dragon stands out with their quality and consistency.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="/api/placeholder/60/60" alt="Customer">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Zain M.</h4>
+                                <p>Food Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev"><i class="fas fa-arrow-left"></i></button>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="carousel-btn next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="app-downloads">
+                <h3>Order through our app</h3>
+                <p>Get exclusive deals and faster checkout</p>
+                <div class="app-buttons">
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-apple"></i>
+                        <span>App Store</span>
+                    </a>
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-google-play"></i>
+                        <span>Google Play</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section" id="deals">
+        <div class="section-title">
+            <span class="tag">Limited Time</span>
+            <h2>Special Deals & Offers</h2>
+            <p>Enjoy great value with our specially curated deals perfect for individuals, families, and groups</p>
+        </div>
+        <div class="deals-slider">
+            <div class="deals-wrapper">
+                <div class="deal-card">
+                    <div class="deal-badge">Most Popular</div>
+                    <div class="deal-image">
+                        <img src=https://img.freepik.com/free-vector/gradient-reunion-dinner-illustration-chinese-new-year-festival_52683-149483.jpg?semt=ais_hybrid&w=740 alt="Deal for 5 Persons">
+                    </div>
+                    <div class="deal-content">
+                        <h3>Family Feast</h3>
+                        <p class="deal-description">Soup + Starter + 2 Chicken Dishes (Gravy) + Rice + Chowmein</p>
+                        <ul class="deal-features">
+                            <li><i class="fas fa-check-circle"></i> Serves 5 people</li>
+                            <li><i class="fas fa-check-circle"></i> Free soft drinks</li>
+                            <li><i class="fas fa-check-circle"></i> 15% off regular price</li>
+                        </ul>
+                        <div class="deal-price">
+                            <span class="original-price">₨4,600</span>
+                            <span class="current-price">₨3,900</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Best Value</div>
+                    <div class="deal-image">
+                        <img src=https://www.nakmakanapa.com.my/wp-content/uploads/2022/01/Chinese-New-Year-Events.jpg alt="Rs 760 Per Head">
+                    </div>
+                    <div class="deal-content">
+                        <h3>Group Dining</h3>
+                        <p class="deal-description">Starter, Chicken gravy, Fish gravy, Beef Dry, Rice, Chowmein</p>
+                        <ul class="deal-features">
+                            <li><i class="fas fa-check-circle"></i> Only ₨760 per head</li>
+                            <li><i class="fas fa-check-circle"></i> Minimum 25 persons</li>
+                            <li><i class="fas fa-check-circle"></i> Free setup & delivery</li>
+                        </ul>
+                        <div class="deal-price">
+                            <span class="price-note">Starting from</span>
+                            <span class="current-price">₨19,000</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">For One</div>
+                    <div class="deal-image">
+                        <img src=https://s3-media0.fl.yelpcdn.com/bphoto/jd9fKGyj7-IgFzDl9W5-eQ/348s.jpg alt="Solo Deal">
+                    </div>
+                    <div class="deal-content">
+                        <h3>Solo Meal</h3>
+                        <p class="deal-description">Chicken fried rice, Chicken manchurian (dry), Spring roll</p>
+                        <ul class="deal-features">
+                            <li><i class="fas fa-check-circle"></i> Perfect single portion</li>
+                            <li><i class="fas fa-check-circle"></i> Free soup of the day</li>
+                            <li><i class="fas fa-check-circle"></i> 10% off on reorder</li>
+                        </ul>
+                        <div class="deal-price">
+                            <span class="original-price">₨950</span>
+                            <span class="current-price">₨850</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Quick Meal</div>
+                    <div class="deal-image">
+                        <img src=https://cdn.prod.website-files.com/62e18da95149ec2ee0d87b5b/659719d46fd8252f24de49dd_64b5c97f13958db38df410f7_63751f4bf5ce337a1a868c2c_thumbnail_Healthy%252520Chinese%252520Food.png alt="Value Bowl">
+                    </div>
+                    <div class="deal-content">
+                        <h3>Value Bowl</h3>
+                        <p class="deal-description">Egg fried rice topped with chicken manchurian gravy</p>
+                        <ul class="deal-features">
+                            <li><i class="fas fa-check-circle"></i> Ready in 15 minutes</li>
+                            <li><i class="fas fa-check-circle"></i> Generous portion</li>
+                            <li><i class="fas fa-check-circle"></i> Free prawn crackers</li>
+                        </ul>
+                        <div class="deal-price">
+                            <span class="original-price">₨750</span>
+                            <span class="current-price">₨650</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Order Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="tag">Get In Touch</span>
+                <h2>We'd Love To Hear From You</h2>
+                <p>Reach out for orders, feedback, or inquiries. Our team is here to assist you!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Our Location</h4>
+                            <p>Karachi, Pakistan</p>
+                            <a href="#map" class="text-link">View on map <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>+92 300-2734680</p>
+                            <a href="tel:+92 300-2734680" class="text-link">Call now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>info@gdchinese.com</p>
+                            <a href="mailto:info@gdchinese.com" class="text-link">Send email <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Every day:  11:30 AM – 10:45 PM </p>
+                            <a href="#order" class="text-link">Order online <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Your Phone</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-phone"></i>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <select id="subject" class="form-control" required>
+                                <option value="" disabled selected>Select subject</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="catering">Catering Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <div class="input-with-icon textarea">
+                            <i class="fas fa-comment-alt"></i>
+                            <textarea id="message" class="form-control" placeholder="Type your message here..." required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="map-overlay">
+                <h3>Our Location</h3>
+                <p>Find us in the heart of Karachi</p>
+                <button class="btn btn-outline-light">View Full Map</button>
+            </div>
+            <div class="map">
+                <img src="/api/placeholder/1200/300" alt="Map Location">
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-content">
+                <h2>Ready to experience authentic Chinese & Thai flavors?</h2>
+                <p>Order now and get 15% off your first order!</p>
+                <div class="cta-buttons">
+                    <a href="#menu" class="btn btn-primary btn-lg">Order Online <i class="fas fa-arrow-right"></i></a>
+                    <a href="tel:+92 300-2734680" class="btn btn-outline-light btn-lg">Call to Order <i class="fas fa-phone"></i></a>
+                </div>
+                <div class="discount-code">
+                    <span>Use code:</span>
+                    <strong>WELCOME15</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <div class="footer-logo">
+                    <div class="logo-text"><span>Golden</span> Dragon</div>
+                </div>
+                <p>Authentic Chinese & Thai cuisine delivered to your doorstep. Experience the rich flavors of the East with our carefully crafted dishes.</p>
+                <div class="footer-app-download">
+                    <p>Download our app</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn small">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                        <a href="#" class="app-btn small">
+                            <i class="fab fa-google-play"></i>
+                            <span>Play Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#deals"><i class="fas fa-chevron-right"></i> Deals</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    <li><a href="#faq"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    <li><a href="#blog"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                    <li><a href="#careers"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Menu Categories</h3>
+                <ul class="footer-links two-column">
+                    <li><a href="#chicken"><i class="fas fa-chevron-right"></i> Chicken</a></li>
+                    <li><a href="#beef"><i class="fas fa-chevron-right"></i> Beef</a></li>
+                    <li><a href="#seafood"><i class="fas fa-chevron-right"></i> Seafood</a></li>
+                    <li><a href="#vegetarian"><i class="fas fa-chevron-right"></i> Vegetarian</a></li>
+                    <li><a href="#soups"><i class="fas fa-chevron-right"></i> Soups</a></li>
+                    <li><a href="#appetizers"><i class="fas fa-chevron-right"></i> Appetizers</a></li>
+                    <li><a href="#rice"><i class="fas fa-chevron-right"></i> Rice</a></li>
+                    <li><a href="#noodles"><i class="fas fa-chevron-right"></i> Noodles</a></li>
+                    <li><a href="#desserts"><i class="fas fa-chevron-right"></i> Desserts</a></li>
+                    <li><a href="#beverages"><i class="fas fa-chevron-right"></i> Beverages</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Contact Us</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Karachi, Pakistan</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+92 300-2734680</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@gdchinese.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Every day:  11:30 AM – 10:45 PM </span>
+                    </li>
+                </ul>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 Golden Dragon. All Rights Reserved.</p>
+            </div>
+            <div class="footer-bottom-links">
+                <a href="#terms">Terms & Conditions</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#sitemap">Sitemap</a>
+            </div>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amex"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <button id="scrollToTop"><i class="fas fa-arrow-up"></i></button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Navigation Toggle
+            const mobileBtnElement = document.querySelector('.mobile-nav-toggle');
+            const navElement = document.querySelector('nav ul');
+
+            mobileBtnElement.addEventListener('click', () => {
+                if (navElement.style.display === 'flex') {
+                    navElement.style.display = 'none';
+                } else {
+                    navElement.style.display = 'flex';
+                    navElement.style.flexDirection = 'column';
+                    navElement.style.position = 'absolute';
+                    navElement.style.top = '100%';
+                    navElement.style.left = '0';
+                    navElement.style.width = '100%';
+                    navElement.style.backgroundColor = '#000';
+                    navElement.style.padding = '1rem';
+                }
+            });
+
+            // Filter Tabs
+            const filterTabs = document.querySelectorAll('.filter-tab');
+
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                });
+            });
+
+            // Order Tabs
+            const orderTabs = document.querySelectorAll('.order-tab');
+
+            orderTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    orderTabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                });
+            });
+
+            // Slider Navigation
+            const sliderNextBtn = document.querySelector('.slider-btn.next');
+            const sliderPrevBtn = document.querySelector('.slider-btn.prev');
+            const sliderDots = document.querySelectorAll('.slider-dots .dot');
+
+            if (sliderNextBtn && sliderPrevBtn && sliderDots.length) {
+                sliderNextBtn.addEventListener('click', () => {
+                    let activeDot = document.querySelector('.slider-dots .dot.active');
+                    let nextDot = activeDot.nextElementSibling || sliderDots[0];
+
+                    activeDot.classList.remove('active');
+                    nextDot.classList.add('active');
+                });
+
+                sliderPrevBtn.addEventListener('click', () => {
+                    let activeDot = document.querySelector('.slider-dots .dot.active');
+                    let prevDot = activeDot.previousElementSibling || sliderDots[sliderDots.length - 1];
+
+                    activeDot.classList.remove('active');
+                    prevDot.classList.add('active');
+                });
+            }
+
+            // Back To Top Button
+            const scrollToTopBtn = document.getElementById('scrollToTop');
+
+            window.addEventListener('scroll', () => {
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    scrollToTopBtn.style.display = 'flex';
+                } else {
+                    scrollToTopBtn.style.display = 'none';
+                }
+            });
+
+            scrollToTopBtn.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Scroll Animation
+            const animateOnScroll = () => {
+                const elements = document.querySelectorAll('[data-scroll-animate]');
+
+                elements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+
+                    if (elementTop < windowHeight * 0.75) {
+                        const animation = element.dataset.scrollAnimate;
+                        element.classList.add('animate__animated', `animate__${animation}`);
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', animateOnScroll);
+            animateOnScroll(); // Initial check
+
+            // Add to cart animation
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+            const cartCount = document.querySelector('.cart-count');
+            let count = 0;
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Increment cart count
+                    count++;
+                    cartCount.textContent = count;
+
+                    // Animate cart button
+                    const cartBtn = document.querySelector('.cart-btn');
+                    cartBtn.classList.add('animate__animated', 'animate__rubberBand');
+
+                    setTimeout(() => {
+                        cartBtn.classList.remove('animate__animated', 'animate__rubberBand');
+                    }, 1000);
+
+                    // Add animation class to button
+                    button.classList.add('added');
+                    button.innerHTML = 'Added <i class="fas fa-check"></i>';
+
+                    setTimeout(() => {
+                        button.classList.remove('added');
+                        button.innerHTML = 'Add to Cart <i class="fas fa-plus"></i>';
+                    }, 2000);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
